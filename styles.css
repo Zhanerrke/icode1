@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfd;
+    text-align: left;
+}
+#hh2{
+    margin-bottom:60px;
+    border: 2px solid lightgrey;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: lightgrey;
+        display:inline-block;
+}
+
+#oo{
+    border: 2px solid lightgrey;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: lightgrey;
+        display:inline-block;
+        margin-top:5px;
+}
+
+.container {
+    width: 400px;
+    text-align: left;
+    margin-left: 20%;
+}
+
+h2 {
+    color: #333;
+    margin-top: 30px;
+}
+
+
+.typography,  .headings,  .colors,  .buttons  {
+    margin-bottom: 30px;
+
+}
+
+.typography p,  .headings h1, .headings h2, .headings h3{
+    margin: 10px 0;
+    border:2px light grey;
+    }
+
+    #h7{
+        border:2px solid lightgrey;
+        border-radius: 5px;
+        padding:10px;
+        background-color: lightgrey;
+        display:inline-block;
+    }
+
+    #j5{
+        border: 2px solid lightgrey;
+            border-radius: 10px;
+            padding: 10px;
+            background-color: lightgrey;
+            display:inline-block;
+    }
+
+
+
+/* Colors Section */
+.color-box {
+    width: 100px;
+    height: 100px;
+    margin: 10px ;
+    position: relative;
+}
+
+.orange {
+    background-color: rgb(255, 81, 0);
+    border-radius: 0;
+    /* Square shape */
+}
+
+.purple {
+    background-color: purple;
+    border-radius: 50%;
+    /* Circular shape */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+}
+
+
+.orange-text {
+    color:orange;
+    font-weight: bold;
+    position: absolute;
+    top:-60px;
+    /* Move text above the box */
+}
+
+.purple-text{
+    color:purple;
+    font-weight:bold;
+    position:absolute;
+    top:-55px;
+}
+
+
+.button-container{
+    text-align: left;
+}
+h2{
+    font-size:24px;
+    margin-bottom: 20px;
+}
+
+.button-state {
+    margin:10px 0;
+}
+
+p{
+    margin:5px 0;
+    font-size:18px;
+}
+
+.button {
+    padding: 10px 100px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+/* Default state */
+.default {
+    background-color: #321fb3;
+}
+
+/* Hovered state */
+.hovered {
+    background-color: #676eb3;
+}
+
+.hovered:hover {
+    background-color: #5a66a7;
+}
+
+/* Active state */
+.active {
+    background-color: #9b99a7;
+}
+
+.active:active {
+    background-color: #7d7b89;
+}
